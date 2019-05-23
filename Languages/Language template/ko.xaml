@@ -83,44 +83,44 @@
     <sys:String x:Key="WriterProgressFail">펌웨어 업데이트 실패!</sys:String>
 
     <!--Keyboard settings-->
-    <sys:String x:Key="NextTrack" xml:space="preserve">Next&#xA;Track</sys:String>
-    <sys:String x:Key="PrevTrack" xml:space="preserve">Prev&#xA;Track</sys:String>
-    <sys:String x:Key="Stop" xml:space="preserve">Stop</sys:String>
-    <sys:String x:Key="PlayPause" xml:space="preserve">Play&#xA;Pause</sys:String>
-    <sys:String x:Key="Mute" xml:space="preserve">Mute</sys:String>
-    <sys:String x:Key="VolumeUp" xml:space="preserve">VolUp</sys:String>
-    <sys:String x:Key="VolumeDown" xml:space="preserve">VolDn</sys:String>
-    <sys:String x:Key="BassUp" xml:space="preserve">Bass&#xA;Up</sys:String>
-    <sys:String x:Key="BassDown" xml:space="preserve">Bass&#xA;Down</sys:String>
-    <sys:String x:Key="TrebleUp" xml:space="preserve">Treble&#xA;Up</sys:String>
-    <sys:String x:Key="TrebleDown" xml:space="preserve">Treble&#xA;Down</sys:String>
-    <sys:String x:Key="MediaSelect" xml:space="preserve">Media</sys:String>
-    <sys:String x:Key="Mail" xml:space="preserve">Mail</sys:String>
-    <sys:String x:Key="Calculator" xml:space="preserve">Calc</sys:String>
-    <sys:String x:Key="MyComputer" xml:space="preserve">MyPC</sys:String>
-    <sys:String x:Key="wwwSearch" xml:space="preserve">WWW&#xA;Search</sys:String>
-    <sys:String x:Key="wwwHome" xml:space="preserve">WWW&#xA;Home</sys:String>
-    <sys:String x:Key="wwwFavorites" xml:space="preserve">WWW&#xA;Favs</sys:String>
-    <sys:String x:Key="MouseL-Btn" xml:space="preserve">Mouse&#xA;L-Btn</sys:String>
-    <sys:String x:Key="MouseM-Btn" xml:space="preserve">Mouse&#xA;M-Btn</sys:String>
-    <sys:String x:Key="MouseR-Btn" xml:space="preserve">Mouse&#xA;R-Btn</sys:String>
-    <sys:String x:Key="WheelUp" xml:space="preserve">Wheel↑</sys:String>
-    <sys:String x:Key="WheelDown" xml:space="preserve">Wheel↓</sys:String>
-    <sys:String x:Key="SetPoint" xml:space="preserve">Select&#xA;Point</sys:String>
-    <sys:String x:Key="ClrPoint" xml:space="preserve">Clear&#xA;Point</sys:String>
+    <sys:String x:Key="NextTrack" xml:space="preserve">다음&#xA;트랙</sys:String>
+    <sys:String x:Key="PrevTrack" xml:space="preserve">이전&#xA;트랙</sys:String>
+    <sys:String x:Key="Stop" xml:space="preserve">정지</sys:String>
+    <sys:String x:Key="PlayPause" xml:space="preserve">재생&#xA;일시정지</sys:String>
+    <sys:String x:Key="Mute" xml:space="preserve">음소거</sys:String>
+    <sys:String x:Key="VolumeUp" xml:space="preserve">음량&#xA;높이기</sys:String>
+    <sys:String x:Key="VolumeDown" xml:space="preserve">음량&#xA;내리기</sys:String>
+    <sys:String x:Key="BassUp" xml:space="preserve">베이스&#xA;증폭</sys:String>
+    <sys:String x:Key="BassDown" xml:space="preserve">Bass&#xA;약화</sys:String>
+    <sys:String x:Key="TrebleUp" xml:space="preserve">Treble&#xA;증폭</sys:String>
+    <sys:String x:Key="TrebleDown" xml:space="preserve">Treble&#xA;약화</sys:String>
+    <sys:String x:Key="MediaSelect" xml:space="preserve">미디어</sys:String>
+    <sys:String x:Key="Mail" xml:space="preserve">메일</sys:String>
+    <sys:String x:Key="Calculator" xml:space="preserve">계산기</sys:String>
+    <sys:String x:Key="MyComputer" xml:space="preserve">내컴퓨터</sys:String>
+    <sys:String x:Key="wwwSearch" xml:space="preserve">WWW&#xA;검색</sys:String>
+    <sys:String x:Key="wwwHome" xml:space="preserve">WWW&#xA;홈페이지</sys:String>
+    <sys:String x:Key="wwwFavorites" xml:space="preserve">WWW&#xA;즐겨찾기</sys:String>
+    <sys:String x:Key="MouseL-Btn" xml:space="preserve">좌클</sys:String>
+    <sys:String x:Key="MouseM-Btn" xml:space="preserve">휠클</sys:String>
+    <sys:String x:Key="MouseR-Btn" xml:space="preserve">우클</sys:String>
+    <sys:String x:Key="WheelUp" xml:space="preserve">휠↑</sys:String>
+    <sys:String x:Key="WheelDown" xml:space="preserve">휠↓</sys:String>
+    <sys:String x:Key="SetPoint" xml:space="preserve">좌표지정</sys:String>
+    <sys:String x:Key="ClrPoint" xml:space="preserve">선택해제</sys:String>
     <sys:String x:Key="PopupText" xml:space="preserve">
-Key set information:
-  Left-click to select, Right-click to accept !
-Point set information:
-  Left-Down on "SelectPoint" then move Mouse to select,
-  Left-Up to selected Point !
+키설정 하는법:
+  좌클릭으로 선택, 우클릭으로 확인
+좌표설정 하는법:
+  "좌표지정"을 꾹 누른 상태로 드래그하여 좌표지정
+  좌클릭을 때면 지정 완려!
 </sys:String>
-    <sys:String x:Key="TipPoint" xml:space="preserve">This mouse points applies only to the current monitor !</sys:String>
+    <sys:String x:Key="TipPoint" xml:space="preserve">이 좌표는 현재 모니터에만 젹용됩니다!</sys:String>
 
     <!--Led settings-->
-    <sys:String x:Key="Add">Append</sys:String>
-    <sys:String x:Key="Ins">Insert</sys:String>
-    <sys:String x:Key="Del">Delete</sys:String>
-    <sys:String x:Key="Clr">Clear</sys:String>
-    <sys:String x:Key="InstantMode">InstantMode</sys:String>
+    <sys:String x:Key="Add">추가</sys:String>
+    <sys:String x:Key="Ins">삽입</sys:String>
+    <sys:String x:Key="Del">삭제</sys:String>
+    <sys:String x:Key="Clr">전체삭제</sys:String>
+    <sys:String x:Key="InstantMode"></sys:String>
 </ResourceDictionary>
