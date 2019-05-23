@@ -113,7 +113,7 @@
   좌클릭으로 선택, 우클릭으로 확인
 좌표설정 하는법:
   "좌표지정"을 꾹 누른 상태로 드래그하여 좌표지정
-  좌클릭을 때면 지정 완려!
+  좌클릭을 때면 지정 완!
 </sys:String>
     <sys:String x:Key="TipPoint" xml:space="preserve">이 좌표는 현재 모니터에만 젹용됩니다!</sys:String>
 
