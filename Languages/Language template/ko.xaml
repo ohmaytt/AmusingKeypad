@@ -4,83 +4,83 @@
                     xmlns:sys="clr-namespace:System;assembly=mscorlib">
     <!--Main window title bar-->
     <sys:String x:Key="MainTitle">AmusingKeypadPro</sys:String>
-    <sys:String x:Key="KeyCfgs" xml:space="preserve"> KeyCfgs </sys:String>
-    <sys:String x:Key="KeyLeds" xml:space="preserve"> KeyLeds </sys:String>
-    <sys:String x:Key="BackLeds" xml:space="preserve"> BackLeds </sys:String>
+    <sys:String x:Key="KeyCfgs" xml:space="preserve"> 키콘픽 </sys:String>
+    <sys:String x:Key="KeyLeds" xml:space="preserve"> 키라이트 </sys:String>
+    <sys:String x:Key="BackLeds" xml:space="preserve"> 백라이트 </sys:String>
 
     <!--Application upgrade tips-->
-    <sys:String x:Key="NewReleaseApp">The new version of the application is published, do you want updated?</sys:String>
-    <sys:String x:Key="OldAppVersion">Old App Version:</sys:String>
-    <sys:String x:Key="NewAppVersion">New App Version:</sys:String>
-    <sys:String x:Key="AppUpdateSuccess">App Update Success!</sys:String>
-    <sys:String x:Key="AppUpdateFailed">App Update Failed!</sys:String>
-    <sys:String x:Key="GetAppVerListFail">Failed to get application update list:</sys:String>
+    <sys:String x:Key="NewReleaseApp">새 버전의 프로그램이 나왔습니다. 업데이트하시겠습니까?</sys:String>
+    <sys:String x:Key="OldAppVersion">현재버전:</sys:String>
+    <sys:String x:Key="NewAppVersion">최신버전:</sys:String>
+    <sys:String x:Key="AppUpdateSuccess">업데이트 성공!</sys:String>
+    <sys:String x:Key="AppUpdateFailed">업데이트 실패!</sys:String>
+    <sys:String x:Key="GetAppVerListFail">업데이트리스트 불러오기를 실패했습니다.:</sys:String>
 
     <!--Device connection status-->
-    <sys:String x:Key="NoLink" xml:space="preserve">No Device Link !</sys:String>
-    <sys:String x:Key="Linked" xml:space="preserve">Device Linking...</sys:String>
-    <sys:String x:Key="ReadyToIAP">Ready to IAP...</sys:String>
-    <sys:String x:Key="ReBoot">Reboot device...</sys:String>
+    <sys:String x:Key="NoLink" xml:space="preserve">연결된 디바이스가 없습니다!</sys:String> 
+    <sys:String x:Key="Linked" xml:space="preserve">디바이스 연결중......</sys:String>
+    <sys:String x:Key="ReadyToIAP">IAP 준비중...</sys:String>
+    <sys:String x:Key="ReBoot">디바이스 재부팅중......</sys:String>
 
     <!--Device function name-->
-    <sys:String x:Key="KeyDebounce">KeyDebounce:</sys:String>
-    <sys:String x:Key="AlwaysOFF">AlwaysOFF</sys:String>
-    <sys:String x:Key="AlwaysON">AlwaysON</sys:String>
-    <sys:String x:Key="PressON">PressON</sys:String>
-    <sys:String x:Key="PressOFF">PressOFF</sys:String>
-    <sys:String x:Key="ColorTable">ColorTable</sys:String>
-    <sys:String x:Key="PressFreqColor">PressFreqColor</sys:String>
-    <sys:String x:Key="AnyPressON">AnyPressON</sys:String>
-    <sys:String x:Key="AnyPressOFF">AnyPressOFF</sys:String>
-    <sys:String x:Key="AnyPressFreqColor">AnyPressFreqColor</sys:String>
+    <sys:String x:Key="KeyDebounce">스위치디바운스:</sys:String>
+    <sys:String x:Key="AlwaysOFF">상시 꺼짐</sys:String>
+    <sys:String x:Key="AlwaysON">상시 켜짐</sys:String>
+    <sys:String x:Key="PressON">눌리면 켜짐</sys:String>
+    <sys:String x:Key="PressOFF">눌리면 꺼짐</sys:String>
+    <sys:String x:Key="ColorTable">색상순환</sys:String>
+    <sys:String x:Key="PressFreqColor">연타속도비례</sys:String>
+    <sys:String x:Key="AnyPressON">아무거나눌릴시 켜짐</sys:String>
+    <sys:String x:Key="AnyPressOFF">아무거나눌릴시 꺼짐</sys:String>
+    <sys:String x:Key="AnyPressFreqColor">아무키의 연타속도비례</sys:String>
 
     <!--Application settings content-->
-    <sys:String x:Key="FactoryAll">Factory All</sys:String>
-    <sys:String x:Key="FactoryKey">Factory Key</sys:String>
-    <sys:String x:Key="FactoryLed">Factory Led</sys:String>
-    <sys:String x:Key="FactoryRgb">Factory Rgb</sys:String>
-    <sys:String x:Key="FactoryKps">Factory Kps</sys:String>
-    <sys:String x:Key="MenuSystem">System Settings</sys:String>
-    <sys:String x:Key="LinkCheck">Connection Check</sys:String>
-    <sys:String x:Key="EnableLed">Enable Led Features</sys:String>
-    <sys:String x:Key="EnableIAP">Enable External IAP</sys:String>
-    <sys:String x:Key="MenuUpdate">Rom Update</sys:String>
-    <sys:String x:Key="ReleaseVer">Release Version:</sys:String>
-    <sys:String x:Key="LocalVer">Local Version:</sys:String>
-    <sys:String x:Key="OnlineUpdate">Online Update:</sys:String>
-    <sys:String x:Key="UpdateSelected">Update To Selected Version</sys:String>
-    <sys:String x:Key="UpdateLocalFile">Update From Local File</sys:String>
-    <sys:String x:Key="LocalUpdate">Local Update:</sys:String>
-    <sys:String x:Key="FirmwareLoaded">Firmware loaded, start writing?</sys:String>
-    <sys:String x:Key="BrokenFile">The file is damaged or incomplete!</sys:String>
-    <sys:String x:Key="MenuInfo">About</sys:String>
-    <sys:String x:Key="SoftVer">Software Version:</sys:String>
-    <sys:String x:Key="DeviceVer">Device Version:</sys:String>
-    <sys:String x:Key="DeviceID">Device ID:</sys:String>
-    <sys:String x:Key="Issue">Report BUG:</sys:String>
-    <sys:String x:Key="Contact">Contact:</sys:String>
+    <sys:String x:Key="FactoryAll">전부 초기화</sys:String>
+    <sys:String x:Key="FactoryKey">키바인드 초기화</sys:String>
+    <sys:String x:Key="FactoryLed">LED 초기화</sys:String>
+    <sys:String x:Key="FactoryRgb">RGB 초기화</sys:String>
+    <sys:String x:Key="FactoryKps">KPS 초기화</sys:String>
+    <sys:String x:Key="MenuSystem">시스템 설정</sys:String>
+    <sys:String x:Key="LinkCheck">연결여부 확인</sys:String>
+    <sys:String x:Key="EnableLed">LED 활성화</sys:String>
+    <sys:String x:Key="EnableIAP">외부 IAP 활성화</sys:String>
+    <sys:String x:Key="MenuUpdate">롬 업데이트</sys:String>
+    <sys:String x:Key="ReleaseVer">릴리즈 버전:</sys:String>
+    <sys:String x:Key="LocalVer">현재 버전:</sys:String>
+    <sys:String x:Key="OnlineUpdate">온라인 업데이트:</sys:String>
+    <sys:String x:Key="UpdateSelected">선택된 버전으로 업데이트</sys:String>
+    <sys:String x:Key="UpdateLocalFile">로컬파일로 업데이트</sys:String>
+    <sys:String x:Key="LocalUpdate">로컬 업데이트:</sys:String>
+    <sys:String x:Key="FirmwareLoaded">펌웨어 로드됨. 덮어씌우시겠습니까></sys:String>
+    <sys:String x:Key="BrokenFile">파일이 불완전하거나 손상되었습니다!</sys:String>
+    <sys:String x:Key="MenuInfo">정보</sys:String>
+    <sys:String x:Key="SoftVer">소프트웨어 버전:</sys:String>
+    <sys:String x:Key="DeviceVer">디바이스 버전:</sys:String>
+    <sys:String x:Key="DeviceID">디바이스 ID:</sys:String>
+    <sys:String x:Key="Issue">버그리포트:</sys:String>
+    <sys:String x:Key="Contact">연락처:</sys:String>
 
     <!--Firmware update information-->
-    <sys:String x:Key="Connected">Connected device</sys:String>
-    <sys:String x:Key="DeviceError">Device type verification failed!</sys:String>
-    <sys:String x:Key="DeviceIdFail">Device ID verification failed!</sys:String>
-    <sys:String x:Key="FlashWipe">Flash Wipe Success!</sys:String>
-    <sys:String x:Key="FlashWrite">Flash Write Success!</sys:String>
-    <sys:String x:Key="FlashVerify">Flash Verify Success!</sys:String>
-    <sys:String x:Key="CmdSuccess">Run command success!</sys:String>
-    <sys:String x:Key="CmdTimeOut">Run command timeout!</sys:String>
-    <sys:String x:Key="CmdRunError">Run command error!</sys:String>
-    <sys:String x:Key="CmdAddrError">Command address error!</sys:String>
-    <sys:String x:Key="CmdLenError">Command length error!</sys:String>
-    <sys:String x:Key="CmdError">Command Error!</sys:String>
-    <sys:String x:Key="VerifyError">Data Verify Error!</sys:String>
-    <sys:String x:Key="OtherError">Unknown error, operation failed!</sys:String>
-    <sys:String x:Key="FirmwareIsNull">No Firmware Loaded!</sys:String>
-    <sys:String x:Key="RomUpdateStart">Firmware Update Start...</sys:String>
-    <sys:String x:Key="RomUpdateSuccess">Firmware Update Successs!</sys:String>
-    <sys:String x:Key="WriterProgressTitle">Firmware updating...</sys:String>
-    <sys:String x:Key="WriterProgressFine">Firmware udate success!</sys:String>
-    <sys:String x:Key="WriterProgressFail">Firmware udate failed!</sys:String>
+    <sys:String x:Key="Connected">디바이스에 연결했습니다</sys:String>
+    <sys:String x:Key="DeviceError">디바이스 유형 확인 실패!</sys:String>
+    <sys:String x:Key="DeviceIdFail">디바이스 ID 확인 실패!</sys:String>
+    <sys:String x:Key="FlashWipe">플래시 제거 성공!</sys:String>
+    <sys:String x:Key="FlashWrite">플래시 작성 성공!</sys:String>
+    <sys:String x:Key="FlashVerify">플래시 확인 성공!</sys:String>
+    <sys:String x:Key="CmdSuccess">명령 실행 성공!</sys:String>
+    <sys:String x:Key="CmdTimeOut">명령 실행 시간 초과!</sys:String>
+    <sys:String x:Key="CmdRunError">명령 실행 오류!</sys:String>
+    <sys:String x:Key="CmdAddrError">명령 Address 오류!</sys:String>
+    <sys:String x:Key="CmdLenError">명령 길이 오류!</sys:String>
+    <sys:String x:Key="CmdError">명령 오류!</sys:String>
+    <sys:String x:Key="VerifyError">데이터 확인 오류!</sys:String>
+    <sys:String x:Key="OtherError">알수 없는 오류, 작업 실패!</sys:String>
+    <sys:String x:Key="FirmwareIsNull">로드된 펌웨어 없음!!</sys:String>
+    <sys:String x:Key="RomUpdateStart">펌웨어 업데이드 시작...</sys:String>
+    <sys:String x:Key="RomUpdateSuccess">펌웨어 업데이트 성공!</sys:String>
+    <sys:String x:Key="WriterProgressTitle">펌웨어 업데이트중...</sys:String>
+    <sys:String x:Key="WriterProgressFine">펌웨어 업데이트 성공!</sys:String>
+    <sys:String x:Key="WriterProgressFail">펌웨어 업데이트 실패!</sys:String>
 
     <!--Keyboard settings-->
     <sys:String x:Key="NextTrack" xml:space="preserve">Next&#xA;Track</sys:String>
